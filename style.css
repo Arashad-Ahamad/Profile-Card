@@ -81,12 +81,20 @@ body {
 
 .avatar-container {
   margin-top: -60px;
-  border: 8px solid white;
-  border-radius: 100%;
   display: inline-block;
   position: relative;
 
 }
+
+.avtar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 8px solid white;
+
+}
+
 
 .green-dot {
   width: 14px;
@@ -97,7 +105,7 @@ body {
   box-sizing: content-box;
   position: absolute;
   right: 0;
-  bottom: 10px;
+  bottom: 18px;
 }
 
 .circle {
@@ -135,12 +143,6 @@ body {
 
 }
 
-.avtar {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 100%;
-}
 
 @media (max-width:370px) {
 
